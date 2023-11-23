@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <title>Results summary component</title>
+
+</head>
+<body>
+
+  <section class="container">
+
+    <section class="result">
+      <h2>Your result</h2>
+      <div class="result-score">
+        <span>76</span>
+        of 100
+      </div>
+      <h3>Great</h3>
+      <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+    
+    <section class="summary">
+      <h2>Summary</h2>
+      <div class="summary-itens">
+        <div class="summary__item red">
+          <span class="summary__icon"><img src="./assets/images/icon-reaction.svg" alt=""></span>
+          <h3 class="summary__category">Reaction</h3>
+          <p class="summary__score">80<span>/100</span></p>
+        </div>
+        <div class="summary__item yellow">
+          <span class="summary__icon"><img src="./assets/images/icon-memory.svg" alt=""></span>
+          <h3 class="summary__category">Memory</h3>
+          <p class="summary__score">92<span>/100</span></p>
+        </div>
+        <div class="summary__item green">
+          <span class="summary__icon"><img src="./assets/images/icon-verbal.svg" alt=""></span>
+          <h3 class="summary__category">Verbal</h3>
+          <p class="summary__score">61<span>/100</span></p>
+        </div>
+        <div class="summary__item blue">
+          <span class="summary__icon"><img src="./assets/images/icon-visual.svg" alt=""></span>
+          <h3 class="summary__category">Visual</h3>
+          <p class="summary__score">72<span>/100</span></p>
+        </div>
+      </div>
+      <button class="summary__button">Continue</button>
+    </section>
+  </section>
+</body>
+</html>
